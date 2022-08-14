@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vw;
+  width: 100vh;
+  background-color: black;
+}
+
+body{
+    overflow: hidden;
+}
+#canvas {
+  display: block;
+  background-color: black;
+  filter: blur(10px) contrast(20);
+}
